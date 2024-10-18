@@ -1,0 +1,181 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2e2b29; /* Fondo oscuro */
+    padding: 10px 50px; /* Ajuste del padding para centrar los elementos */
+}
+
+.logo img {
+    height: 50px; /* Tamaño del logo */
+    width: 50px;  /* Asegúrate de que el ancho y la altura sean iguales */
+    border-radius: 50%; /* Esto hace que la imagen sea redonda */
+    object-fit: cover; /* Asegura que la imagen cubra bien el área sin deformarse */
+}
+
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.login .login-btn {
+    padding: 8px 20px;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.login .login-btn:hover {
+    background-color: white;
+    color: #2e2b29; /* Color inverso al hacer hover */
+}
+
+/*body*/
+
+body {
+    font-family: 'Inter';
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #000;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #222;
+    color: white;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-image img {
+    max-width: 90%;
+    position: left;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #f0c000c1;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Footer general */
+footer {
+    background-color: #2e2b29; /* Fondo oscuro */
+    color: white;
+    padding: 40px 50px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-section h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #a8a8a8; /* Efecto hover */
+}
+
+.footer-section p {
+    font-size: 14px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-section {
+        margin: 20px 0;
+    }
+
+    .social-icons {
+        margin-top: 20px;
+    }
+}
+
